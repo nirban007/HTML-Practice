@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Welcome</title>
+     <style type="text/css">
+      body{
+          margin:auto;
+          background:aquamarine;
+          font-family: arial;
+      }
+      .nav_bar
+      {
+          
+          margin: auto;
+          border-bottom: 2px solid black;
+          width: 860px;
+          padding: 0px 20px 0px 20px;
+          height: 50px;
+          margin-top: 30px;
+      }
+      .nav_bar ul{
+          padding: 0;
+          list-style: none;
+      }
+      .nav_bar ul li{
+          
+          float :left;
+          font-size: 16px;
+          font-weight: bold;
+          margin-right: 10px;
+
+      }
+      .nav_bar ul li a{
+          text-decoration: none;
+          color: black;
+          background: #6db1e4;
+          border: 1px solid black;
+          border-bottom: none;
+          padding: 15px 15px 15px 15px;
+      }
+      .nav_bar ul li a:hover{
+          text-decoration: none;
+          color: black;
+          background: #96e0e9;
+      }
+      .main_container
+      {
+          margin:auto;
+          width:1500px;
+          padding:20px;
+          border: 1px solid #000000;
+          min-height: 500px;
+          border-top:none;
+          background: #ffffff;
+          
+
+
+      }
+      .footer {
+      
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: green;
+        color: white;
+        text-align: center;
+}
+
+ 
+
+  
+     </style>
+    </head> 
+    <body>
+        
+       <div class="nav_bar">
+           <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="about.html">CONTACT</a></li>
+               <li><a href="login.html">Login</a></li>
+           </ul>
+       </div>
+       <div class="footer">
+        <p>Social Media<br> 
+            <a href="www.google.com">@google</a>
+            <a href="https://www.facebook.com/narbanmitra.joy">@facebook</a>
+        </p>
+          
+       </div>
+     <div class="main_container">
+         <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.
+
+            Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+         <p>Eqution: (a+b)<sup>2</sup>= a<sup>2</sup>+2ab+b<sup>2</sup> </p>
+     </div>
+    </body>
+</html>
